@@ -1,1 +1,72 @@
+Cybersécurité : les outils open source que conseille l’ANSSI américaine
+Clément Bohic, 20 juillet 2023, 9:41
+CISA open source sécurité
+La CISA, homologue américaine de l’ANSSI, propose une liste de produits et services de sécurité gratuits. Focus sur une trentaine d’outils open source qui y figurent.
+
+À la recherche de produits et de services de sécurité informatique ? L’ANSSI tient deux listes référentes. D’une part, de ceux qualifiés par rapport aux besoins de l’administration. De l’autre, de ceux crédités de la CSPN (évaluation du niveau de sécurité indépendamment de l’usage final).
+
+Son homologue américaine – le CISA – a elle aussi sa boîte à outils. Début 2022, elle y a ajouté un catalogue d’une centaine de solutions, actualisé à plusieurs reprises depuis. Leur point commun : toutes peuvent être utilisées gratuitement.
+
+La majorité de ces solutions proviennent d’entreprises américaines. Entre autres, AT&T, Cisco, Cloudflare, Crowdstrike, Google, IBM, Mandiant, Microsoft, Palo Alto Networks, Secureworks, Splunk, Tenable et VMware. Nombre d’entre elles sont open source.
+
+On implémentera ces outils après avoir mis en place un certain nombre de mesures, explique la CISA. En particulier, corriger les failles connues dans son parc logiciel, mettre en œuvre le MFA et remplacer les systèmes qui exploitent des mots de passe non modifiables.
+
+Une bonne partie des solutions open source que propose la CISA relèvent de la prévention des incidents. Parmi elles, il y a des « vieux de la vieille », comme :
+
+– Aircrack (outil en ligne de commande pour l’audit des réseaux Wi-Fi ; il trouve ses origines en 2009)
+– Paros Proxy (outil Java de recherche de vulnérabilités dans les web apps ; il remonte aux années 2000)
+– Hping (outil en ligne de commande pour l’analyse de paquets TCP, UDP, ICMP et RAW-IP ; année de naissance : 2006)
+– OpenPGP (chiffrement à clés publiques ; né dans les années 90)
+– Nikto (outil d’analyse de serveurs web fondé sur Perl et LibWhisker2 ; il a une dizaine d’années)
+– w3af (framework d’audit des applications web ; créé en 2013)
+
+
+
+Beaucoup d’outils origine Google
+AdBlock fait partie des outils plus récents. Il entre dans l’arsenal de la Global Cyber Alliance, à laquelle Cybermalveillance.gouv.fr s’est associé voilà trois ans. Même chose pour l’autorité de certification Let’s Encrypt.
+
+Lire aussi : Le « guide ransomware » de l’ANSSI américaine mis à jour
+Plusieurs outils trouvent leurs racines chez Google. Il en est ainsi de :
+
+– Santa (système d’autorisation binaire pour Mac ; première version publique en 2014 ; logo ci-contre)Santa logo
+– Go Safe Web (bibliothèque de développement de serveurs HTTP sécurisés)
+– Tink (bibliothèque cryptographique pour Java, C++, Objective-C, Go et Python ; première version publique en 2017)
+– Tsunami Security Scanner (moteur d’analyse des réseaux ; actuellement en « pré-alpha » ; première version publique en 2020)
+
+Tsunami Security Scanner
+– OSV (Open Source Vulnerabilities, base de données de failles dans l’open source ; ouverte en 2021)
+
+OSV schéma
+– Open Source Insights (graphe des dépendances de projets open source et de leurs vulnérabilités ; lancé en 2021)
+
+Toujours dans la catégorie « prévention », deux outils proviennent de l’OSSF (Open Source Security Foundation, organisation de droit américain qui réunit des « poids lourds » du numérique). D’un côté, AllStar (sécurité et conformité sur GitHub). De l’autre, Security Scorecards (scoring de sécurité des projets open source).
+
+Au rang des outils de prévention, il y a aussi Quad9. Porté par la fondation de droit suisse du même nom (et qui compte la Global Cyber Alliance dans ses sponsors), il consiste en un DNS récursif destiné à empêcher la connexion à des hôtes malveillants.
+
+Grype (recherche de vulnérabilités dans les images de conteneurs et les systèmes de fichiers) fait partie des outils qui n’étaient pas présents dans la version initiale de la liste CISA. Même chose pour Atomic Red Team, framework PowerShell associé à une bibliothèque de tests de sécurité (alignée sur MITRE ATT@CK).
+
+Journalisation, forensique, tests d’intrusion…
+Wireshark icôneSur la partie « détection des intrusions », on trouve aussi des « anciens ». Par exemple :
+
+Lire aussi : Développement logiciel sécurisé : le choix des Five Eyes
+– Wireshark (ex-Ethereal ; capture de paquets réseau ; il avait émergé en 1998 ; logo ci-contre)
+– Kismet (monitoring de réseaux sans fil ; complément fréquent à Wireshark)
+– Netfilter (filtrage réseau au niveau du noyau Linux)
+
+RITA logo open sourceAvec ELSA (Enterprise Log Search), on est sur la composante journalisation, à l’appui du socle syslog-ng/MySQL/Sphinx. Ettercap permet quant à lui de réaliser des attaques par interception (man-in-the-middle). BruteSpray, des attaques de type force brute, en s’appuyant sur Nmap, Nexpose ou Nessus. sqlmap (illustré ci-dessous) se concentre pour sa part sur les bases de données ; avec, en première ligne, les techniques d’injection. Et RITA (Real Intelligence Threat Intelligence ; logo ci-contre), sur la détection du trafic malveillant (beaconing, tunnels DNS…) à partir de logs Zeek.
+
+sqlmap open source
+
+Zeek est, comme notamment CyberChef, Wazuh et NetworkMiner, une des briques fondamentales de Security Onion, distribution Linux « spéciale sécurité ».
+
+En matière de réponse aux incidents, un seul outil open source : Timesketch. Également made in Google, il permet l’analyse collaborative de données forensiques.
+
+Timesketch schéma open source
+
+Illustration principale © dgmata – Fotolia
+
+Lire aussi : Cybersécurité : 15 vulnérabilités dans le viseur des Five Eyes
+
+PME EXPÉRIENCE
+Loïc Guézo (SEMEA) - Cybersecurité des PME
 
